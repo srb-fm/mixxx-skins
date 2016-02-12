@@ -42,7 +42,7 @@
             </Connection>
           </WidgetGroup>
           <Template src="skin:deck_overview_row.xml"/>
-          <Template src="skin:deck_controls_row.xml"/>
+          <!--SRB<Template src="skin:deck_controls_row.xml"/>-->
         </Children>
       </WidgetGroup>
     </Children>
