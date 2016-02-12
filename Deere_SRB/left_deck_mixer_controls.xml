@@ -15,7 +15,7 @@
       <WidgetGroup>
         <Layout>horizontal</Layout>
         <Children>
-          <Template src="skin:deck_mixer_controls_col1.xml"/>
+          <!--SRB<Template src="skin:deck_mixer_controls_col1.xml"/>-->
           <Template src="skin:deck_mixer_controls_col2.xml"/>
         </Children>
         <Connection>
