@@ -106,6 +106,7 @@
 }
 
 #Sampler {
+  background-color: #3e3a9e;
   border: 1px solid #222;
 }
 
