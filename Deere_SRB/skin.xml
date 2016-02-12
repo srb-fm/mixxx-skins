@@ -16,6 +16,11 @@
       <attribute persist="true" config_key="[Spinny2],show_spinny">1</attribute>
       <attribute persist="true" config_key="[Spinny3],show_spinny">1</attribute>
       <attribute persist="true" config_key="[Spinny4],show_spinny">1</attribute>
+      <!--SRB-->
+      <attribute persist="true" config_key="[Master],hide_mixer">1</attribute>
+      <attribute persist="true" config_key="[Deere],hide_crossfader">1</attribute>
+      <attribute persist="true" config_key="[EffectRack1],hide_effects">1</attribute>
+      <!--SRB end-->
       <attribute persist="true" config_key="[Samplers],show_samplers">0</attribute>
       <attribute persist="true" config_key="[Microphone],show_microphone">0</attribute>
       <attribute persist="true" config_key="[Vinylcontrol],show_vinylcontrol">0</attribute>
