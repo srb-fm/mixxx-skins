@@ -43,21 +43,25 @@
       </Template>
       -->
 
+      
       <SliderComposed>
         <TooltipId>rate</TooltipId>
         <MinimumSize>40,50</MinimumSize>
         <MaximumSize>40,-1</MaximumSize>
         <SizePolicy>,me</SizePolicy>
+<!-- Disabled for SRB
         <Slider scalemode="STRETCH">slider-vertical.svg</Slider>
         <Handle scalemode="STRETCH_ASPECT">handle-vertical.svg</Handle>
         <Connection>
           <ConfigKey><Variable name="group"/>,rate</ConfigKey>
         </Connection>
+	-->
       </SliderComposed>
-
+<!-- Disabled for SRB
       <WidgetGroup>
         <ObjectName>RateTempButtons</ObjectName>
         <Layout>horizontal</Layout>
+
         <Children>
           <Template src="skin:left_right_1state_button.xml">
             <SetVariable name="ObjectName">TempRateDown</SetVariable>
@@ -85,8 +89,9 @@
             <SetVariable name="right_connection_control"><Variable name="group"/>,rate_temp_up_small</SetVariable>
           </Template>
         </Children>
-      </WidgetGroup>
 
+      </WidgetGroup>
+ 	-->     
       <Template src="skin:spacer_vx.xml">
         <SetVariable name="height">8</SetVariable>
       </Template>
