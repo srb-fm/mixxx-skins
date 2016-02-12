@@ -360,6 +360,27 @@
         <Layout>vertical</Layout>
         <SizePolicy>me,min</SizePolicy>
         <Children>
+			<PushButton>
+            <Size>80me,20f</Size>
+            <NumberStates>2</NumberStates>
+            <State>
+              <Number>0</Number>
+              <Text>&#9744; Show Effect Rack</Text>
+              <Alignment>left</Alignment>
+            </State>
+            <State>
+              <Number>1</Number>
+              <Text>&#9745; Show Effect Rack</Text>
+              <Alignment>left</Alignment>
+            </State>
+            <Connection>
+              <ConfigKey persist="true">[EffectRack1],hide_effects</ConfigKey>
+              <Transform>
+                <Not/>
+              </Transform>
+            </Connection>
+          </PushButton>
+
           <PushButton>
             <Size>80me,20f</Size>
             <NumberStates>2</NumberStates>

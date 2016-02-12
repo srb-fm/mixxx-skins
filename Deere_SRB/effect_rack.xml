@@ -106,5 +106,12 @@
         <Not/>
       </Transform>
     </Connection>
+    <Connection>
+      <ConfigKey>[EffectRack1],hide_effects</ConfigKey>
+      <BindProperty>visible</BindProperty>
+      <Transform>
+        <Not/>
+      </Transform>
+    </Connection>
   </WidgetGroup>
 </Template>
