@@ -155,7 +155,7 @@
       </WidgetGroup>
 
       <Template src="skin:spacer_h.xml"></Template>
-
+<!--SRB
       <WidgetGroup>
         <ObjectName>HeadphoneControls</ObjectName>
         <SizePolicy>min,min</SizePolicy>
@@ -220,7 +220,7 @@
           </Template>
         </Children>
       </WidgetGroup>
-
+-->
       <WidgetGroup>
         <ObjectName>MasterVumeter</ObjectName>
         <Size>-1me,22min</Size>
